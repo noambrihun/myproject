@@ -1,0 +1,41 @@
+/* סידור ה־navbar */
+.navbar {
+    display: flex;                  /* מסדר את שני הצדדים בשורה אחת */
+    justify-content: space-between; /* ימין ושמאל בקצוות */
+    align-items: center;            /* מיישר לגובה אחיד */
+    padding: 10px 40px;
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* צד ימין: לוגו + קטגוריות */
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right a {
+    margin-left: 20px;               /* רווח בין הלוגו לקטגוריות */
+    text-decoration: none;           /* בלי קו תחתון */
+    color: black;
+    font-weight: bold;
+}
+
+/* צד שמאל: אייקונים */
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 20px;
+    margin-left: 10px;               /* רווחים בין האייקונים */
+    cursor: pointer;
+}
+
+/* לוגו */
+.logo {
+    width: 60px;
+}
+
+
