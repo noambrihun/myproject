@@ -1,6 +1,7 @@
+
 body {
   font-family: Arial, sans-serif;
-  background: #f7f7f7;
+  background: linear-gradient(120deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,10 +13,9 @@ body {
   background: white;
   border: 1px solid green;
   padding: 25px;
-  border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   width: 500px;
-  height: 500px;
+  height: 400px;
   text-align: center;
 }
 
@@ -30,13 +30,17 @@ label {
 }
 
 input, select,button {
-  background: #55a4d0;
+  background: #55a4dc;
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
   border-radius: 5px;
   border: 1px solid #ccc;
   font-size: 14px;
+}
+
+li{
+  text-align: left;
 }
 
 button {
@@ -54,3 +58,9 @@ button:hover {
   background: #0056b3;
 }
 
+
+
+@media (max-width:360px){
+  .container{ padding:22px 18px; }
+  h2{ font-size:1.1rem; }
+}

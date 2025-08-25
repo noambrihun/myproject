@@ -17,7 +17,7 @@ document.getElementById("convertBtn").addEventListener("click", () => {
   }
 
   const converted = amount * rates[currency];
-  resultField.value = converted.toFixed(2) + " ₪";
+  resultField.value = converted.toFixed(2)  + " ₪";
 
   alert("Converted Amount: " + converted.toFixed(2) + " ₪");
 });
